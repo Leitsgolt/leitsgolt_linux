@@ -1,0 +1,16 @@
+   0 cd /tmp/
+   1 touch adam.txt eva.txt
+   2 cd ..
+   3 cd /home/
+   4 mkdir humans
+   5 cd ..
+   6 cp /tmp/adam.txt /home/humans/
+   7 cd /opt/
+   8 touch eve.txt
+   9 cd ..
+  10 mv /tmp/eva.txt /opt/eve.txt
+  11 mv /opt/eve.txt /home/humans/
+  12 cd /home/humans/
+  13 tree
+  14 cd ..
+  15 history > history.txt

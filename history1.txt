@@ -1,0 +1,10 @@
+   0 cd /home/
+   1 mkdir -p /home/animals/cats/
+   2 mkdir -p /home/animals/dogs/
+   3 mkdir -p /home/animals/fish/
+   4 touch /home/animals/cats/garfield.txt
+   5 touch /home/animals/dogs/pluto.txt
+   6 touch /home/animals/fish/nemo.txt
+   7 tree
+   8 cd ..
+   9 history > history1.txt
